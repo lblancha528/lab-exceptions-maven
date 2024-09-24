@@ -5,7 +5,6 @@ A lab on exceptions.
 Authors:
 
 * Samuel A. Rebelsky (starter code).
-* Your Name Here
-* Your Name Here
-
-This code may be found at <URL>.
+* Lily Blanchard
+* Sal Karki
+This code may be found at <https://github.com/Grinnell-CSC207/lab-exceptions-maven>.
