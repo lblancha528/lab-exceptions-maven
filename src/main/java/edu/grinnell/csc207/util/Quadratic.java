@@ -1,11 +1,16 @@
 package edu.grinnell.csc207.util;
 
+import java.beans.Transient;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
+
+
 /**
  * Quadratic expressions (of the form ax^2 + bx + c).
  *
  * @author Samuel A. Rebelsky
- * @author YOUR NAME HERE
- * @author YOUR NAME HERE
+ * @author Lily Blanchard
+ * @author Sal Karki
  */
 public class Quadratic {
   // +--------+------------------------------------------------------
@@ -107,4 +112,6 @@ public class Quadratic {
   public double largerRoot() {
     return 0; // STUB
   } // largerRoot
+
+  
 } // class Quadratic
