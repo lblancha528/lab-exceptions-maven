@@ -44,7 +44,7 @@ public class TestQuadratic {
     Quadratic b = new Quadratic(1, 2, -3);
     Quadratic c = new Quadratic(1, 3, -10);
     Quadratic d = new Quadratic(1, 5, 6);
-    assertEquals(0, a.smallerRoot(), "zero root");
+    assertEquals(-0.0, a.smallerRoot(), "zero root");
     assertEquals(-3, b.smallerRoot(), "negative root");
     assertEquals(-3, d.smallerRoot(), "two negative roots");
     assertEquals(-5, c.smallerRoot(), "another test");

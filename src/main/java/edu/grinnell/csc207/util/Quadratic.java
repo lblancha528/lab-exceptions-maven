@@ -1,8 +1,7 @@
 package edu.grinnell.csc207.util;
 
 import java.beans.Transient;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
+import java.lang.Math;
 
 
 /**
@@ -100,7 +99,7 @@ public class Quadratic {
    *   is only one).
    */
   public double smallerRoot() {
-    return 0; // STUB
+    return (-b - Math.sqrt((b * b) - (4 * a * c))) / (2 * a);
   } // smallerRoot
 
   /**
@@ -110,7 +109,7 @@ public class Quadratic {
    *   is only one).
    */
   public double largerRoot() {
-    return 0; // STUB
+    return (-b + Math.sqrt((b * b) - (4 * a * c))) / (2 * a);
   } // largerRoot
 
   
